@@ -1,0 +1,91 @@
+
+.navbar{ display : flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+
+}
+nav ul li{ display: inline-block;
+           list-style: none;
+           margin: 10px 20px;
+
+
+}
+nav ul li a{ text-decoration: none;
+            font-weight: bold;
+
+
+}
+nav ul li a:hover{ color: blue;
+
+
+}
+.logo{ height: 100px;
+    width: 100px
+
+}
+
+.cart {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-image { align-items: inline;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.quantity {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.buttons {padding:10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.checkout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#checkout {
+    background-color: #28a745;
+}
+
+#checkout:hover {
+    background-color: #218838;
+}
+.liked{
+    background-color: none;
+    outline-style: hidden;
+    cursor: pointer;
+}
+.liked:hover{ color: red
+}
